@@ -23,6 +23,7 @@ public class LoginTest {
 		driver.get("http://gmail.com/");
 		driver.findElement(By.id("Email")).sendKeys("osmtest");
 		driver.findElement(By.id("Passwrd")).sendKeys("yfuy");
+		driver.findElement(By.id("SignIn")).click();
 	}
 	@AfterSuite
 	public void tearDown(){
