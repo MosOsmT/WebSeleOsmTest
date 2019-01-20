@@ -20,6 +20,7 @@ public class LoginTest {
 	@Test
 	public void doLogin(){
 		
+		//login information
 		driver.get("http://gmail.com/");
 		driver.findElement(By.id("Email")).sendKeys("osmtest");
 		driver.findElement(By.id("Passwrd")).sendKeys("yfuy");
